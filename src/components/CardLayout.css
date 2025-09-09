@@ -1,0 +1,239 @@
+/* CSS */
+.digimon-card.horizontal .digimon-image.small {
+width: 100px;
+height: 100px;
+object-fit: contain;
+margin-right: 12px;
+}
+
+
+/* Badge card */
+.digimon-card.badge {
+text-align: center;
+padding: 10px;
+max-width: 180px;
+}
+
+
+.digimon-card.badge .digimon-image.tiny {
+width: 80px;
+height: 80px;
+object-fit: contain;
+}
+
+
+/* Common */
+.digimon-image {
+width: 150px;
+height: 150px;
+object-fit: contain;
+}
+
+
+.digimon-name {
+font-size: 1rem;
+font-weight: bold;
+margin: 8px 0;
+}
+
+
+.digimon-info {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 6px;
+font-size: 0.85rem;
+}
+
+
+.label {
+font-weight: 600;
+}
+
+
+.release-date {
+font-size: 0.75rem;
+color: #666;
+margin: 6px 0;
+}
+
+
+.button-wrap {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+
+.btn {
+background: linear-gradient(90deg, #6366f1, #8b5cf6);
+color: #fff;
+border: none;
+padding: 8px 16px;
+border-radius: 20px;
+font-size: 0.9rem;
+font-weight: 500;
+cursor: pointer;
+transition: opacity 0.2s ease, transform 0.1s ease;
+box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+
+.btn:hover {
+opacity: 0.9;
+transform: translateY(-2px);
+}
+
+
+.btn:active {
+transform: translateY(0);
+}
+
+
+.loading {
+padding: 16px;
+text-align: center;
+}
+
+.fancy-vertical {
+  max-width: 340px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.fancy-vertical .header {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  padding: 20px;
+}
+
+.digimon-image.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  object-fit: contain;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.digimon-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.badge.level { background: #10b981; }
+.badge.type { background: #3b82f6; }
+.badge.attr { background: #f59e0b; }
+
+.field, .release-date {
+  font-size: 0.85rem;
+  color: #444;
+  margin: 6px 0;
+}
+
+.btn {
+  margin-top: 12px;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  padding: 10px 20px;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+/* --- Horizontal card --- */
+.fancy-horizontal {
+  max-width: 600px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.card-row {
+  display: flex;
+  align-items: stretch;
+}
+
+.image-wrap {
+  flex: 0 0 200px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrap img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.fancy-horizontal .digimon-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.fancy-horizontal .badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.badge.level { background: #10b981; }
+.badge.type { background: #3b82f6; }
+.badge.attr { background: #f59e0b; }
+
+.fancy-horizontal .field, 
+.fancy-horizontal .release-date {
+  font-size: 0.85rem;
+  color: #444;
+  margin: 4px 0;
+}
+
+.button-wrap {
+  margin-top: 10px;
+}
+
+.cards-showcase {
+  display: flex ;
+  flex-direction: column;
+  gap: 1rem;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 20px;
+  justify-items: center;
+  align-items: stretch;
+  background: #f4f4f7; */
+}

@@ -5,6 +5,7 @@ import { useState } from "react";
 export const MyButton = ({ title }) => {
   const [color, setColor] = useState("red");
   const buttonRef = useRef(null);
+  title = "laksjdflj";
 
   const gantiWarna = (value = "green") => {
     console.log("button ref", buttonRef.current);
